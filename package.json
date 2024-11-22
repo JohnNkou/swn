@@ -1,0 +1,22 @@
+{
+  "name": "swn",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This package will help using service worker by providing an abstraction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "service",
+    "worker",
+    "storage"
+  ],
+  "author": "Abel Kashoba",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

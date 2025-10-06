@@ -26,6 +26,10 @@ export default class SWN {
 		pathname = url.pathname,
 		recordEntry = this.#urls.find((url)=> url.pathname == pathname);
 
+		if(request.method != 'GET'){
+			return event.respondWith(fetch(request));
+		}
+
 		if(recordEntry){
 			let network_instruction = recordEntry.network_instruction;
 

@@ -1,5 +1,7 @@
 import { NETWORK } from './src/constant.js'
 
+export * as CONSTANT from './src/constant.js'
+
 export default class SWN {
 	#name;
 	#urls;

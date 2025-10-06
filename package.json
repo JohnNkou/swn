@@ -1,6 +1,6 @@
 {
   "name": "swn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "This package will help using service worker by providing an abstraction",
   "main": "index.js",
